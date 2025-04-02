@@ -2,6 +2,10 @@
 
 source "https://rubygems.org"
 
+# Descomente a linha abaixo se estiver usando Rails
 # gem "rails"
 
+# Gems para testes automatizados
+gem 'capybara'
 gem 'cucumber'
+gem 'selenium-webdriver'
