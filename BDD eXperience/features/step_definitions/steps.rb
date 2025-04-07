@@ -4,5 +4,6 @@ Quando('acesso a página principal da Starbugs') do
 end
   
   Então('eu devo ver uma lista de cafés disponíveis') do
-    pending # Write code here that turns the phrase above into concrete actions
+    products = all('.coffe-item')
+    expect(products.size).to be > 0 # Verifica se há pelo menos um café na lista
 end
